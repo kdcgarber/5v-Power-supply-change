@@ -77,9 +77,9 @@ This will channel 5V over to the (old) 12V lines and make them 5V as well.
 
 | My Cable | Model 1 power connector from the TRS-80 micro computer technical reference handbook| Pin Example| Diagram|
 | ------------- | ------------- | ------------- | ------------- |
-|![5v-Power-supply-change](/images/Powercable.jpg) | ![5v-Power-supply-change](/images/image005.jpg)   | ![5v-Power-supply-change](/images/image006.jpg)  | ![5v-Power-supply-change](/images/image010.png)   |
+|<img src="https://github.com/kdcgarber/5v-Power-supply-change/blob/main/images/Powercable.jpg" width="400" height="280">  | ![5v-Power-supply-change](/images/image005.jpg)   | ![5v-Power-supply-change](/images/image006.jpg)  | ![5v-Power-supply-change](/images/image010.png)   |
 
-<img src="https://github.com/kdcgarber/5v-Power-supply-change/blob/main/images/Powercable.jpg" width="200" height="280"> 
+
  
 Note: in the image above red is 5V and green is ground.  
 A good reference I used to see the ports better is here:  
