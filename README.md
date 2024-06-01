@@ -10,8 +10,8 @@ This is a slightly altered copy of TRS-80 Model 1 USB-A Power Mod (5V DC convers
 Tim's document provides way more options and detail, these are my notes based on his work from his original doc.  
 His path is great and is what I followed.  
 This is not to take credit for any of his work, its just my path following his great doc.  
-So, thanks Tim for your notes that I could follow.  
-I'll be using a lot of his words and just altering them some as I log my work to get power working again on my model-1.
+So, thanks Tim for your notes that I could follow.  Others should use his doc to get a clear picture of the choices and path to follow. 
+I'll be using a lot of his words/pics and just altering them some as I log my work to get power working again on my model-1.
 
 The changes required to switch to 5 volts are pretty simple, it but does require a trace cut and the removal of several components from the motherboard.  
 Several wires are then soldered in place.  
