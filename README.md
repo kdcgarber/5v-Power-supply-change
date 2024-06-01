@@ -60,7 +60,7 @@ We can safely ignore the -5V lines.
 
 | Data Sheet | Old and New|
 | ------------- | ------------- |
-| ![5v-Power-supply-change](/images/image006.png)  | ![My-Retro-hardware-hobby/TRS-80-Model-1/5vPowerSupplyReplacment](../images/mem.jpg)   |
+| ![5v-Power-supply-change](/images/image006.png)  | ![5v-Power-supply-change](/images/mem.jpg)   |
 
 To get 5V where the stock computer had 12V is easy. Simply connect Z1 pin 3 to Z1 pin 12 (connected to Z2 pin 3).  
 This will channel 5V over to the (old) 12V lines and make them 5V as well.  
@@ -77,7 +77,7 @@ This will channel 5V over to the (old) 12V lines and make them 5V as well.
 
 | My Cable | Model 1 power connector from the TRS-80 micro computer technical reference handbook| Pin Example| Diagram|
 | ------------- | ------------- | ------------- | ------------- |
-| <img src="https://github.com/kdcgarber/5v-Power-supply-change/blob/main/images/Powercable.jpg" width="400" height="280"> | ![My-Retro-hardware-hobby/TRS-80-Model-1/5vPowerSupplyReplacment](../images/image005.jpg)   | ![My-Retro-hardware-hobby/TRS-80-Model-1/5vPowerSupplyReplacment](../images/image006.jpg)  | ![My-Retro-hardware-hobby/TRS-80-Model-1/5vPowerSupplyReplacment](../images/image010.jpg)   |
+| <img src="https://github.com/kdcgarber/5v-Power-supply-change/blob/main/images/Powercable.jpg" width="400" height="280"> | ![5v-Power-supply-change](/images/image010.jpg)   |
 
  
 Note: in the image above red is 5V and green is ground.  
