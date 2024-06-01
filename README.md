@@ -131,7 +131,8 @@ This is shown in the image below. Be sure to turn off all the switches except 3 
   
 <img src="https://github.com/kdcgarber/5v-Power-supply-change/blob/main/images/image016.jpg" width="35%" height="35%">
 
-## ----  The modification is complete  --------------------------------- 
+
+## The modification is complete  
  
 - [ ] Testing your modification and putting the memory back  
 Ensure your power switch is off on the Model 1 computer. Hook up the power cable and connect it to a USB charger.  
