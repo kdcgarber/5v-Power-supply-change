@@ -77,7 +77,7 @@ This will channel 5V over to the (old) 12V lines and make them 5V as well.
 
 | My Cable | Model 1 power connector from the TRS-80 micro computer technical reference handbook| Pin Example| Diagram|
 | ------------- | ------------- | ------------- | ------------- |
-|<img src="https://github.com/kdcgarber/5v-Power-supply-change/blob/main/images/Powercable.jpg" width="400" height="280">  | ![5v-Power-supply-change](/images/image005.jpg)   | ![5v-Power-supply-change](/images/image006.jpg)  | ![5v-Power-supply-change](/images/image010.png)   |
+|<img src="https://github.com/kdcgarber/5v-Power-supply-change/blob/main/images/Powercable.jpg" width="400" height="150">  | ![5v-Power-supply-change](/images/image005.jpg)   | ![5v-Power-supply-change](/images/image006.jpg)  | ![5v-Power-supply-change](/images/image010.png)   |
 
 
  
@@ -88,7 +88,7 @@ A good reference I used to see the ports better is here:
 I took one of the usb cables I purchased and remove the usb-c end.  
 I stripped back the cable and tinned the wires to be attached to the 5-pin Male DIN Audio Connector I purchased also.  
 Make sure you add the cable cover to the wire before you begin to attach the wires so that its there after the connection is made.  
-After the wires were all attached I checked the connections with the continuity tester on your multimeter.   
+After the wires were all attached I checked the connections with the continuity tester on my multimeter.   
 Then closed up the connector end. 
 
 ### Now for the real work removing/altering things
