@@ -1,4 +1,4 @@
-![5vPowerSupplyReplacment](/images/trs-80MotherboardKeyBoard3.jpg?raw=true "Header")
+![5v-Power-supply-change](/images/trs-80MotherboardKeyBoard3.jpg?raw=true "Header")
 # Restore power from a failing power supply.
 
 These are my notes I made for the choices for my restoration.
@@ -49,7 +49,7 @@ The trick is to channel the power around the active power regulation circuits (t
 Also we do not want to remove the big transistors.  
 What we want is a clean path to the DC power out to the voltage  rails.
 
-![My-Retro-hardware-hobby/TRS-80-Model-1/5vPowerSupplyReplacment](../images/image003.jpg)
+![5v-Power-supply-change](/images/image003.jpg)
 
 Tims pencil marks give some insight into earlier attempts and can be ignored.  
 The red-X's show where we will remove components and the green show the clear path out of the power regulation circuits to the motherboard logic.  
@@ -60,7 +60,7 @@ We can safely ignore the -5V lines.
 
 | Data Sheet | Old and New|
 | ------------- | ------------- |
-| ![My-Retro-hardware-hobby/TRS-80-Model-1/5vPowerSupplyReplacment](../images/image006.png)  | ![My-Retro-hardware-hobby/TRS-80-Model-1/5vPowerSupplyReplacment](../images/mem.jpg)   |
+| ![5v-Power-supply-change](/images/image006.png)  | ![My-Retro-hardware-hobby/TRS-80-Model-1/5vPowerSupplyReplacment](../images/mem.jpg)   |
 
 To get 5V where the stock computer had 12V is easy. Simply connect Z1 pin 3 to Z1 pin 12 (connected to Z2 pin 3).  
 This will channel 5V over to the (old) 12V lines and make them 5V as well.  
@@ -77,7 +77,7 @@ This will channel 5V over to the (old) 12V lines and make them 5V as well.
 
 | My Cable | Model 1 power connector from the TRS-80 micro computer technical reference handbook| Pin Example| Diagram|
 | ------------- | ------------- | ------------- | ------------- |
-| <img src="https://github.com/kdcgarber/My-Retro-hardware-hobby/blob/main/TRS-80-Model-1/images/Powercable.jpg" width="400" height="280"> | ![My-Retro-hardware-hobby/TRS-80-Model-1/5vPowerSupplyReplacment](../images/image005.jpg)   | ![My-Retro-hardware-hobby/TRS-80-Model-1/5vPowerSupplyReplacment](../images/image006.jpg)  | ![My-Retro-hardware-hobby/TRS-80-Model-1/5vPowerSupplyReplacment](../images/image010.jpg)   |
+| <img src="https://github.com/kdcgarber/5v-Power-supply-change/blob/main/images/Powercable.jpg" width="400" height="280"> | ![My-Retro-hardware-hobby/TRS-80-Model-1/5vPowerSupplyReplacment](../images/image005.jpg)   | ![My-Retro-hardware-hobby/TRS-80-Model-1/5vPowerSupplyReplacment](../images/image006.jpg)  | ![My-Retro-hardware-hobby/TRS-80-Model-1/5vPowerSupplyReplacment](../images/image010.jpg)   |
 
  
 Note: in the image above red is 5V and green is ground.  
@@ -94,7 +94,7 @@ Then closed up the connector end.
 When you take the existing components out do it carefully and save them.  
 If you have to you can reverse the modification. Here is a picture of what this should look like when the parts are removed. 
 
-<img src="https://github.com/kdcgarber/My-Retro-hardware-hobby/blob/main/TRS-80-Model-1/images/trs-80-motherboard.jpg" width="125%" height="125%">
+<img src="https://github.com/kdcgarber/5v-Power-supply-change/blob/main/images/trs-80-motherboard.jpg" width="125%" height="125%">
 
 - [ ] Remove the DRAM chips  
 Start off by removing the socketed Z13-Z20 memory chips. Removing components  
@@ -108,7 +108,7 @@ Setup the power switch
 Flip the computer over to the back and focus near the power connector and power switch.  
 - [ ] We need to do a trace cut and solder a wire from pin 5 of the power connector to the right position on the switch. 
 
-<img src="https://github.com/kdcgarber/My-Retro-hardware-hobby/blob/main/TRS-80-Model-1/images/image013.jpg" width="35%" height="35%">
+<img src="https://github.com/kdcgarber/5v-Power-supply-change/blob/main/images/image013.jpg" width="35%" height="35%">
 
 Use the continuity tester on your multimeter to ensure this is all correct.  
 - [ ] Check that the connection on pin 4 of the power connector is not shorted to the pin close to it. Also be sure your trace cut is not conducting. I used a Exacto knife to do the trace cut (just to be sure) but great care is required.  
@@ -116,19 +116,19 @@ The trace cut isolates the power switch lead we will use to connect power to the
 - [ ] To do this turn the board around to show the chips. You need to position the positive lead of C9 to reach the third connection back on the left hand side of the power switch.  
 Add a bit of shrink wrap to ensure the C9 lead doesn't connect with any other power switch terminals. 
 
-<img src="https://github.com/kdcgarber/My-Retro-hardware-hobby/blob/main/TRS-80-Model-1/images/image014.jpg" width="35%" height="35%">
+<img src="https://github.com/kdcgarber/5v-Power-supply-change/blob/main/images/image014.jpg" width="35%" height="35%">
 
 - [ ] We'll also insert a wire of about 4 inches that will connect to the motherboard.
       The picture below shows what this should look like prior to soldering.
       Trim and solder the wire connected to the power switch to the R4 hole closest to the power switch. 
  
-<img src="https://github.com/kdcgarber/My-Retro-hardware-hobby/blob/main/TRS-80-Model-1/images/image015.jpg" width="35%" height="35%">
+<img src="https://github.com/kdcgarber/5v-Power-supply-change/blob/main/images/image015.jpg" width="35%" height="35%">
 
 - [ ] Finally, we need to bridge the old 12V grid to the old 5V grid so everything is 5V DC.  
 To do this, I then soldered a sockets into Z1 (and optionally Z2) and use a 7 switch DIP.  
 This is shown in the image below. Be sure to turn off all the switches except 3 (which is on).  
   
-<img src="https://github.com/kdcgarber/My-Retro-hardware-hobby/blob/main/TRS-80-Model-1/images/image016.jpg" width="35%" height="35%">
+<img src="https://github.com/kdcgarber/5v-Power-supply-change/blob/main/images/image016.jpg" width="35%" height="35%">
 
 ### ----  The modification is complete  --------------------------------- 
  
