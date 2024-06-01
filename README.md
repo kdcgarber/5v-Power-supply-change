@@ -148,5 +148,7 @@ Do they look okay?  Use the TRS-80 micro computer technical reference handbook t
 Also, Refer to Tim's Doc.  Its what I used and created my notes from his two options.
  
 ### Backout if needed.  
-You can reverse the modification (if you were careful with Z1 and Z2). Just socket Z1 and Z2, undo all the new stuff, and put all the old parts where they belong. Move the wire under the power switch to reconnect the trace cut. I've done this several times. The only real danger is that you destroyed Z1 and Z2 when you took them out. 
+You can reverse the modification (if you were careful with Z1 and Z2). Just socket Z1 and Z2, undo all the new stuff, and put all the old parts where they belong. 
+Move the wire under the power switch to reconnect the trace cut. 
+The only real danger is that you destroyed Z1 and Z2 when you took them out. 
 
