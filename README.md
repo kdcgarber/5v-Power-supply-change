@@ -21,7 +21,7 @@ The outside of the computer is unmodified and is indistinguishable from a stock 
 The power switch still works just as normal as does the reset button.  
 For my change I replaced the 4116 memory with 4164 (64K used as 16K).  
 This simplifies the modification and allows the entire computer to run off 5V DC power.  
-I'll look after this at maybe to enabling all 64k of the mem. I saw an article on the change and Ill see if thats an option.
+I'll look after this (maybe) to enabling all 64k of the mem. I saw an article on the change and Ill see if thats an option.
 
 Other Helpful information found on:  
 *  https://mattpilz.com/trs-80-model-1-repair-guide/
