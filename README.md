@@ -67,7 +67,7 @@ This will channel 5V over to the (old) 12V lines and make them 5V as well.
 #### To summarize
 - [ ] Change all the memory chips (Z13 through Z20) from 4116's to 4164's
 - [ ] Ignore the -5V path (bottom of the diagram above) it will not be used. 
-- [ ] Connect 5V DC power into the 5V power grid (the left hand side of R4 as presented below). Bridge Z1 pin 3 to Z1 pin 12 (connected to Z2 pin 3) to change the 12V path to 5V. 
+- [ ] Connect 5V DC power into the 5V power grid (the left-hand side of R4 as presented below). Bridge Z1 pin 3 to Z1 pin 12 (connected to Z2 pin 3) to change the 12V path to 5V. 
  
 ## Starting the power cable build and then the changes to the Model 1 motherboard.
 ### Building the power cable  
@@ -114,7 +114,7 @@ Flip the computer over to the back and focus near the power connector and power 
 Use the continuity tester on your multimeter to ensure this is all correct.  
 - [ ] Check that the connection on pin 4 of the power connector is not shorted to the pin close to it. Also be sure your trace cut is not conducting. I used a Exacto knife to do the trace cut (just to be sure) but great care is required.  
 The trace cut isolates the power switch lead we will use to connect power to the motherboard.  
-- [ ] To do this turn the board around to show the chips. You need to position the positive lead of C9 to reach the third connection back on the left hand side of the power switch.  
+- [ ] To do this turn the board around to show the chips. You need to position the positive lead of C9 to reach the third connection back on the left-hand side of the power switch.  
 Add a bit of shrink wrap to ensure the C9 lead doesn't connect with any other power switch terminals. 
 
 <img src="https://github.com/kdcgarber/5v-Power-supply-change/blob/main/images/image014.jpg" width="35%" height="35%">
@@ -126,7 +126,7 @@ Add a bit of shrink wrap to ensure the C9 lead doesn't connect with any other po
 <img src="https://github.com/kdcgarber/5v-Power-supply-change/blob/main/images/image015.jpg" width="35%" height="35%">
 
 - [ ] Finally, we need to bridge the old 12V grid to the old 5V grid so everything is 5V DC.  
-To do this, I then soldered a sockets into Z1 (and optionally Z2) and use a 7 switch DIP.  
+To do this, I then soldered a socket into Z1 (and optionally Z2) and used a 7 switch DIP.  
 This is shown in the image below. Be sure to turn off all the switches except 3 (which is on).  
   
 <img src="https://github.com/kdcgarber/5v-Power-supply-change/blob/main/images/image016.jpg" width="35%" height="35%">
@@ -139,13 +139,13 @@ Ensure your power switch is off on the Model 1 computer. Hook up the power cable
 For all this testing I suggest you use a clip to connect the negative lead of your multimeter to the side of C9 not connected to the power switch (as we do on a stock Model 1).  
 - [ ] (TEST 1: Any Power?) Before powering this on check the pin on the power switch one up toward where you press the switch. This should read around 5V DC.  
 - [ ] (TEST 2: Motherboard Grid Okay?) Power on the machine. Test that pin 8 of any of the DRAM sockets (any of Z13 through Z20) is 5V DC.    Pin 9 should be 5V DC.  
-If any of these tests fails. Stop, something is wrong. Double-check the instructions and see if you shorted something with a solder connection.  
+If any of these tests fail. Stop, something is wrong. Double-check the instructions and see if you shorted something with a solder connection.  
 If these tests pass shut off the computer and disconnect the power cable.  
 - [ ] Carefully insert your memory. On the bench connect the power cable, you monitor cable, and the keyboard. Turn on the monitor and then the computer. It should work as a Model 1 is expected to work.  
  
 If your computer doesn't go, check voltages when the machine is turned on.  
 Do they look okay?  Use the TRS-80 micro computer technical reference handbook to isolate the problem.  
-Also, Refer to Tim's Doc.  Its what I used and created my notes from his two options.
+Also, Refer to Tim's Doc.  It's what I used and created my notes from his two options.
  
 ### Backout if needed.  
 You can reverse the modification (if you were careful with Z1 and Z2). Just socket Z1 and Z2, undo all the new stuff, and put all the old parts where they belong. 
