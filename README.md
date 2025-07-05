@@ -7,21 +7,21 @@ This is a slightly altered copy of TRS-80 Model 1 USB-A Power Mod (5V DC convers
 
 ### https://github.com/hallorant/bigmit/tree/master/model1usb 
 
-Tim's document provides way more options and detail, these are my notes based on his work from his original doc.  
+Tim's document provides many more options and detail, these are my notes based on his work from his original doc.  
 His path is great and is what I followed.  
-This is not to take credit for any of his work, its just my path following his great doc.  
+This is not to take credit for any of his work, its just my path following his great document to help me remember what I did.
 So, thanks Tim for your notes that I could follow.  Others should use his doc to get a clear picture of the choices and path to follow. 
-I'll be using a lot of his words/pics for my notes and just altering them some as I log my work to get power working again on my model-1.
+I'll be using a lot of his words/pics for my notes and just altering them some as I log my work to get power working again on my model 1.
 
 The changes required to switch to 5 volts are pretty simple, it but does require a trace cut and the removal of several components from the motherboard.  
 Several wires are then soldered in place.  
 Finally, a 5-pin DIN to USB-A cable is constructed.  
-I run mine now on just a small USB power plug, the same as you use for a phone.  Seems handy and easy.  
+I run mine now on just a very good small USB power plug.  Seems handy and easy.  
 The outside of the computer is unmodified and is indistinguishable from a stock Model 1.  
 The power switch still works just as normal as does the reset button.  
 For my change I replaced the 4116 memory with 4164 (64K used as 16K).  
 This simplifies the modification and allows the entire computer to run off 5V DC power.  
-I'll look after this (maybe) to enabling all 64k of the mem. I saw an article on the change and Ill see if thats an option.
+I'll take a look after this (maybe) to enabling all 64k of the memory. I saw an article on the change and I'll see if thats an option.
 
 Other Helpful information found on:  
 *  https://mattpilz.com/trs-80-model-1-repair-guide/
@@ -43,7 +43,7 @@ Other Helpful information found on:
 
 
 ## Modifying the Model 1 computer  
-Tim covers this in his doc providing some background and theory behind our changes  
+Tim covers this in his document providing some background and theory behind our changes  
 What we want to do is bypass the power regulation circuits on the motherboard.  
 The trick is to channel the power around the active power regulation circuits (that create the heat in a stock Model 1).  
 Also we do not want to remove the big transistors.  
@@ -51,10 +51,10 @@ What we want is a clean path to the DC power out to the voltage  rails.
 
 ![5v-Power-supply-change](/images/image003.jpg)
 
-Tims pencil marks give some insight into earlier attempts and can be ignored.  
-The red-X's show where we will remove components and the green show the clear path out of the power regulation circuits to the motherboard logic.  
+Tim's pencil marks give some insight into earlier attempts and can be ignored.  
+The red-X's show where we will remove components and the green marks show the clear path out of the power regulation circuits to the motherboard logic.  
 If we swap out the memory we can make a 5V only system.  
-This removes the need for the DC-to-DC converter, however, there is snag.  
+This removes the need for the DC-to-DC converter, however, there is a snag.  
 If you look at the memory chip pinouts for the 4164 (64K using 16K) in the diagram below, in both cases, we have to get 5V on the lines where previously there was 12V.  
 We can safely ignore the -5V lines.
 
@@ -85,7 +85,7 @@ Note: in the image above red is 5V and green is ground.
 A good reference I used to see the ports better is here:  
 * http://cpmarchives.classiccmp.org/trs80/mirrors/kjsl/www.kjsl.com/trs80/mod1intern.html
 
-I took one of the usb cables I purchased and remove the usb-c end.  
+I took one of the USB cables I purchased and remove the USB-C end.  
 I stripped back the cable and tinned the wires to be attached to the 5-pin Male DIN Audio Connector I purchased also.  
 Make sure you add the cable cover to the wire before you begin to attach the wires so that its there after the connection is made.  
 After the wires were all attached I checked the connections with the continuity tester on my multimeter.   
@@ -112,7 +112,7 @@ Flip the computer over to the back and focus near the power connector and power 
 <img src="https://github.com/kdcgarber/5v-Power-supply-change/blob/main/images/image013.jpg" width="35%" height="35%">
 
 Use the continuity tester on your multimeter to ensure this is all correct.  
-- [ ] Check that the connection on pin 4 of the power connector is not shorted to the pin close to it. Also be sure your trace cut is not conducting. I used a Exacto knife to do the trace cut (just to be sure) but great care is required.  
+- [ ] Check that the connection on pin 4 of the power connector is not shorted to the pin close to it. Also be sure your trace cut is not conducting. I used an Exacto knife to do the trace cut (just to be sure) but great care is required.  
 The trace cut isolates the power switch lead we will use to connect power to the motherboard.  
 - [ ] To do this turn the board around to show the chips. You need to position the positive lead of C9 to reach the third connection back on the left-hand side of the power switch.  
 Add a bit of shrink wrap to ensure the C9 lead doesn't connect with any other power switch terminals. 
@@ -139,13 +139,13 @@ Ensure your power switch is off on the Model 1 computer. Hook up the power cable
 For all this testing I suggest you use a clip to connect the negative lead of your multimeter to the side of C9 not connected to the power switch (as we do on a stock Model 1).  
 - [ ] (TEST 1: Any Power?) Before powering this on check the pin on the power switch one up toward where you press the switch. This should read around 5V DC.  
 - [ ] (TEST 2: Motherboard Grid Okay?) Power on the machine. Test that pin 8 of any of the DRAM sockets (any of Z13 through Z20) is 5V DC.    Pin 9 should be 5V DC.  
-If any of these tests fail. Stop, something is wrong. Double-check the instructions and see if you shorted something with a solder connection.  
-If these tests pass shut off the computer and disconnect the power cable.  
-- [ ] Carefully insert your memory. On the bench connect the power cable, you monitor cable, and the keyboard. Turn on the monitor and then the computer. It should work as a Model 1 is expected to work.  
+If any of these tests fail, Stop immediately, something is wrong. Double-check the instructions and see if you shorted something with a solder connection.  
+If these tests pass, shut off the computer and disconnect the power cable.  
+- [ ] Carefully insert your memory. On the bench connect the power cable, your monitor cable, and the keyboard. Turn on the monitor and then the computer. It should work as a Model 1 is expected to work.  
  
-If your computer doesn't go, check voltages when the machine is turned on.  
+If your computer doesn't work, check voltages when the machine is turned on.  
 Do they look okay?  Use the TRS-80 micro computer technical reference handbook to isolate the problem.  
-Also, Refer to Tim's Doc.  It's what I used and created my notes from his two options.
+Also, Refer to Tim's Document  It's what I used and created my notes from his two options.
  
 ### Backout if needed.  
 You can reverse the modification (if you were careful with Z1 and Z2). Just socket Z1 and Z2, undo all the new stuff, and put all the old parts where they belong. 
